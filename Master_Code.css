@@ -5,9 +5,6 @@
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
   --Settings-Dock-Colour: var(--Main-Colour);
-  --BetterDocsBlockerWhite: var(--Main-Colour);
-  --BetterDocsBlockerBlack1: var(--Background-Colour);
-  --BetterDocsBlockerBlack2: var(--Secondary-Background-Colour);
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
 
   --SD-roundness: var(--Chat-Avatar-Border-Radius); /* Must be with px */
@@ -15,9 +12,6 @@
   --yellow: #faa61a;
   --red: #f04747;
   --purple: #593695;
-  --sourcecheck-official: var(--BetterDocsBlockerGreen, #43B581);
-  --sourcecheck-trusted: var(--BetterDocsBlockerGold, #FAA61A);
-  --sourcecheck-unsafe: var(--BetterDocsBlockerRed, #f04747);
   --logo-primary: var(--Main-Colour);
   --Timestamp-Colour: var(--Secondary-Main-Colour);
 }
@@ -119,30 +113,6 @@ body:before {
 
 #app-mount::after{
   color: var(--Main-Colour);
-}
-
-/* FUCK BETTERDOCS */
-body:after {
-  content: "";
-  background: var(--Background-Colour);
-  border: 1px solid var(--Main-Colour);
-  left: 50%;
-  border-radius: 5px;
-  padding: 5px 15px;
-  transform: translate(-50%, -100%);
-  animation: Notif2 4s ease-in-out, CLog 10s infinite linear;
-  text-align: center;
-  position: absolute;
-  top: 0;
-  height: auto;
-  width: auto;
-  z-index: 9997;
-  color: var(--Main-Colour);
-}
-/* FUCK BETTERDOCS */
-
-.appMount-3lHmkl {
-  backface-visibility: visible!important;
 }
 
 /* Boops */
